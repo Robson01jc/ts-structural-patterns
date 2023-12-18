@@ -1,6 +1,6 @@
 import { User } from '../model/User';
 
 export interface UserRepository {
-  saveUser(user: User): void;
-  getUsers(): User[];
+  save(user: User): void;
+  getAll(): User[];
 }
