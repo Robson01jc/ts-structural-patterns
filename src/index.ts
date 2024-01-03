@@ -4,6 +4,7 @@ import { converterApp } from './bridge/converter';
 import { compositeApp } from './composite/filesystem/client';
 import { decoratorApp } from './decorator/chalk/client';
 import { facadeApp } from './facade/callcenter/client';
+import { gameApp } from './flyweight/gamemap/client';
 
 adapterApp.main();
 hexagonalApp.main();
@@ -12,3 +13,5 @@ converterApp.main();
 compositeApp.main();
 decoratorApp.main();
 facadeApp.main();
+
+gameApp.main();
